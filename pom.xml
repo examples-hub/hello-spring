@@ -14,6 +14,8 @@
         <module>spring-boot-web</module>
         <module>spring-boot-web-secure</module>
         <module>spring-security-simple</module>
+        <module>spring-mvc-anno</module>
+        <module>spring-mvc-anno-minimal</module>
     </modules>
     <packaging>pom</packaging>
 

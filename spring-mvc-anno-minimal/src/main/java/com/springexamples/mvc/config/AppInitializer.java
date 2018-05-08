@@ -2,6 +2,9 @@ package com.springexamples.mvc.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     // Root level configurations
@@ -22,5 +25,13 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
+
+    @Override
+    public void onStartup(ServletContext servletContext) throws ServletException {
+
+        super.onStartup(servletContext);
+
+    }
+
 
 }

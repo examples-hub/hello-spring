@@ -15,6 +15,7 @@
         <module>spring-security-simple</module>
         <module>spring-mvc-anno</module>
         <module>spring-mvc-anno-minimal</module>
+        <module>spring-mvc-anno-minimal-bak</module>
     </modules>
     <packaging>pom</packaging>
 
